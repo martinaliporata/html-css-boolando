@@ -38,7 +38,7 @@ li, i {
     flex-direction: row;
 }
 
-.product {
+.products {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -47,3 +47,37 @@ li, i {
     padding-top: 3rem;
 }
 
+.products > article {
+    position: relative;
+}
+
+.product > .percnt {
+    position: absolute;
+    bottom: 34px;
+    left: 0px;
+    background-color: red;
+    padding: 0.5rem 1rem;
+    color: white;
+}
+
+.product > .sustainability {
+    position: absolute;
+    bottom: 34px;
+    left: 75px;
+    background-color: green;
+    padding: 0.5rem 1rem;
+    color: white;
+}
+
+.product > i {
+    position: absolute;
+    top: 13px;
+    right: 32px;
+    background-color: white;
+    padding: 1rem 0.5rem;
+}
+
+.bigone {
+    display: flex;
+    flex-direction: column;
+}
