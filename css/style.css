@@ -19,8 +19,8 @@ header {
 }
 
 img {
-    width: 14rem;
-    padding-right: 3rem;
+    width: 23rem;
+    padding-right: 2rem;
 }
 
 ul, i {
@@ -37,3 +37,13 @@ li, i {
     display: flex;
     flex-direction: row;
 }
+
+.product {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 2rem;
+    padding-top: 3rem;
+}
+
