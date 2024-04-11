@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.font-white {
+    color: white;
+}
+
+header {
+    background-color: #ff6900;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+}
+
+img {
+    width: 14rem;
+    padding-right: 3rem;
+}
+
+ul, i {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+li, i {
+    padding-right: 1.5rem;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+}
