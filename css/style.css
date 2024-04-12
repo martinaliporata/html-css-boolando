@@ -38,6 +38,10 @@ header {
     align-items: center;
     padding: 1% 5%;
     color: white;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
 }
 
 img.first-image, img.second-image {
@@ -99,6 +103,10 @@ li, i {
 
 .product {
     position: relative;
+}
+
+.distance {
+    margin-top: 6rem;
 }
 
 .product > .percnt {
