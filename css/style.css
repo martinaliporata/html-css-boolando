@@ -60,6 +60,14 @@ img.logo {
     display: none;
 }
 
+.price {
+    display: inline;
+}
+
+.product:hover > .heart {
+    display: inline-block;
+}
+
 ul, i {
     display: flex;
     flex-direction: row;
@@ -121,11 +129,6 @@ li, i {
     right: 32px;
     background-color: white;
     padding: 1rem 0.5rem;
-}
-
-.product:hover > .heart {
-    display: inline-block;
-    background-color: red;
 }
 
 footer  {
