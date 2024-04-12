@@ -25,6 +25,10 @@
     color: white;
 }
 
+.heart:hover {
+    color: red;
+}
+
 header {
     background-color: #ff6900;
     display: flex;
@@ -33,6 +37,7 @@ header {
     align-content: center;
     align-items: center;
     padding: 1% 5%;
+    color: white;
 }
 
 img.first-image, img.second-image {
